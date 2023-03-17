@@ -1,4 +1,4 @@
-# discord-bot-snippets
+# Discord.py Code Snippets
 Get free code snippets for Discord Bot (Discord.py)
   
 
