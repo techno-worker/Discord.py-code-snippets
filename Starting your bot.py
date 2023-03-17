@@ -6,4 +6,12 @@ client=commands.Bot(command_prefix=['your_prefix'],intents=discord.Intents.all()
 
 #All your other codes will be here
 
+
 client.run("token_here")
+
+
+#You can also put the token in a variable 
+
+#TOKEN = 'token_here'
+
+#client.run(TOKEN)
