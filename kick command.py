@@ -2,9 +2,8 @@
 
 @client.command()
 async def kick(ctx,member:discord.Member,reason=None):
-  	await member.kick(reason=reason) # None if no reason is given
- 	await ctx.send(f"Kicked {member.name}")
-	
+    await member.kick()
+	await ctx.send(f"Kicked {member.name} for Reason: {reason}")
 	
 	
 # Modified Version
